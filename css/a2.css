@@ -1,0 +1,289 @@
+*{
+	margin: 0 auto;	
+	padding: 0;
+}
+
+	
+:focus{
+    outline: 0;}/*/按钮点击有蓝框    谷歌单独对待*/
+#box{
+	border: solid  black 1px;
+}
+.banner{
+	height: 54px;
+	width: 1200px;
+    margin-top: 25px;
+}
+#name{
+	margin-left: 5px;
+	font-family: "微软雅黑";
+	font-size: 34px;
+	font-weight: bold;
+	color: #076ce0;
+	float: left;
+	line-height: 50px;
+}
+#sou{
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	margin-left:200px;
+	
+}
+#sys{
+	border-radius:25px 0px 0px 25px;
+	height: 30px;
+	font-family: "微软雅黑";
+	font-size: 13px;
+}
+#an1{
+	height:50px;
+	width: 100px;
+	float: left;
+}
+#an2{
+	border-radius: 0px 25px 25px 0px ;
+	width: 80px;
+	height: 36px;
+    margin-top: 8px;
+	background-color: #076ce0;
+	background-image: url(../img/an2.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+input:focus {
+	border: #076ce0 solid;
+}
+#dianh{
+	margin-left:100px;
+	margin-top: 9px;
+	float: left;
+}
+#haoma{
+	width: 150px;
+	margin-top: 6px;
+	margin-left: 9px;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	color: #666666;
+	float: left;
+}
+#haoma a{
+	text-decoration: none;
+}
+#b{
+	font-size:18px;
+	color: #076ce0;
+}
+#daohang{
+	position: sticky;
+	top: 0;
+	margin-top:20px;
+	clear: both;
+	height: 60px;
+	width: 100%;
+	background-color: #076ce0;
+}
+#daohang ul{
+	list-style: none;
+	margin-left:230px ;
+}
+#daohang li{
+	float: left;
+	width: 100px;
+	line-height: 60px;
+	margin-left: 40px;
+}
+#daohang a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	text-align: center;
+}
+#daohang li:hover{
+	background-color: white;
+	color:#076ce0 ;
+}
+
+#fl{
+	height:400px;
+    width: 100%;
+}
+#shuju{
+	height:500px;
+	width: 1200px;
+	margin-left: 166px;
+	/*background-color:  #f8f8f8 ;*/
+    /*color: #076ce0;*/
+    margin-top: 50px;
+}
+ #left{
+ 	font-size: 16px;
+	height: 1270px;
+	width: 200px;
+	float: left;
+	
+}
+#left .d1 {
+	height:260px;
+	width: 198px;
+	border: 1px solid #c9c9c9;
+	color:  white;
+}
+#left .d1 dt{
+	background-color:#076ce0 ;
+	height: 40px;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	line-height: 40px;
+}
+#left .d1 dd{
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	width:160px;
+	
+}
+.xxx{
+	border-bottom: 1px #999999 dashed;
+			
+}
+#d1 a:hover{
+	color:#076ce0 ;
+}
+#bq{
+	clear: both;
+	width: 1200px;
+	height: 30px;
+	background-color: #d4d4d4;
+	text-align: center;
+	font-size: 14px;
+	cbottom: 1px #666666 dashed;
+}	
+#left a{
+	text-decoration: none;
+	color: #666666;		
+}
+#left a:hover{
+	color:#076ce0 ;
+}
+#bq{
+	clear: both;
+	width: 1200px;
+	height: 30px;
+	background-color: #d4d4d4;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	line-height: 30px;
+	
+}
+#left .d2{
+	height:260px;
+	width: 198px;
+	margin-top: 50px;
+	border: 1px solid #c9c9c9;
+	color:  white;
+	
+}
+.d2 dt{
+	background-color:#076ce0 ;
+	height:40px;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	line-height: 40px;
+}
+.d2 dd{
+	font-family: "微软雅黑";
+	margin-top: 10px;
+	height:25px;
+	line-height: 25px;
+	
+	width:160px;
+}
+#dd{
+	margin-left:5px;
+	color: #666666;
+	font-weight: bold;
+	font-size: 15px;
+	margin-top:10px;
+	float: left;
+}
+.qq{
+	margin-top:-7Px;
+	float: left;
+}
+.q1{
+	float: left;
+	margin-top:5px;
+	clear: both;
+}
+.s{
+	clear: both;
+	font-size: 14px;
+	color: #666666;	
+}
+#right{
+	
+	width: 948px;
+	float: left;
+    margin-left: 50px;
+	
+	background-color: #F8F8F8;
+}
+#youbt{
+	height: 40px;
+	background-color:#076ce0 ;
+	font-family: "微软雅黑";
+	padding-left: 10px;
+	line-height: 40px;
+	color: white;
+}
+#jieshao{
+	height: 900px;
+	width: 948px;
+	padding: 30px;
+}
+
+#wenzi{
+	margin-left: 0px;
+	margin-top: 5px;
+	height: 265px;
+	color: #666666;
+	width: 888px;
+	text-indent: 30px;
+	line-height: 30px;
+	
+}
+#a{
+	padding-left: 50px;
+}
+#a p {
+	
+	width:330px;
+	float: left;
+	text-indent: 30px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	padding: 10px;
+}
+#bb{
+	float: right;
+	height: 200px;
+	width: 350px;
+    margin-top: -255px;
+    margin-right: 100px;
+}
+#bb p{
+	width:330px;
+	float: left;
+	text-indent: 30px;
+	font-size: 16px;
+	color: #666666;
+	line-height: 30px;
+	padding: 10px;
+}
